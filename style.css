@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(201, 198, 204);
+}
+
+.intro{
+    padding:20px 20px 0;
+    background-color: #2d2346;
+    color: white;
+    height: 50px;
+}
+
+.summary{
+    display:none;
+}
+
+.preamble{
+    display:none;
+}
+
+
+header{
+    display: flex;
+}
+
+header h2{
+    display: none;
+}
+
+h1{
+    height: 10px;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2{
+    height: 2px;
+}
+
+#zen-supporting{
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1794100983747724770/C1E39AD75C669BD33C4BE87019EA41AADB7C0B0F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    padding:1em;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
+
+[role=article]{
+    background-color: rgb(201, 198, 204);
+    border-radius: 100px;
+    padding:20px 20px 0;
+    width: 80%;
+    margin: auto;
+}
