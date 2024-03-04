@@ -1,57 +1,254 @@
-body {
+body{
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
-    background-color: rgb(201, 198, 204);
-}
-
-.intro{
-    padding:20px 20px 0;
-    background-color: #2d2346;
-    color: white;
-    height: 50px;
-}
-
-.summary{
-    display:none;
-}
-
-.preamble{
-    display:none;
-}
-
-
-header{
-    display: flex;
-}
-
-header h2{
-    display: none;
-}
-
-h1{
-    height: 10px;
-    margin-left: 50px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-h2{
-    height: 2px;
-}
-
-#zen-supporting{
-    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1794100983747724770/C1E39AD75C669BD33C4BE87019EA41AADB7C0B0F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
-    padding:1em;
-    display: flex;
-    gap:10px;
+    background-image: url(https://wallpapercave.com/wp/wp2754860.jpg);
+    display:flex;
+    height: 100vh;
+    width: 100vh;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    gap: 50px;
     flex-direction: column;
 }
 
-[role=article]{
-    background-color: rgb(201, 198, 204);
-    border-radius: 100px;
-    padding:20px 20px 0;
-    width: 80%;
-    margin: auto;
+/* Section */
+
+section{
+    display: flex;
+    background-image: url(computer.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    content-visibility: hidden;
+}
+
+section:hover {
+    content-visibility:visible;
+    display: contents;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    background-image: none;
+    display: block;
+    position: absolute;
+    Left: calc(50% - 600px/2);
+    top:100px;
+    height: 600px;
+    width: 600px;
+    border: 5px;
+    border-color: #235DDB;
+    border-style:solid;
+}
+
+/* aside */
+
+aside{
+    display: flex;
+    background-image: url(users.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    content-visibility: hidden;
+}
+
+aside:hover {
+    content-visibility:visible;
+    display: contents;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    background-image: none;
+    display: block;
+    position: absolute;
+    Left: calc(50% - 600px/2);
+    top:100px;
+    height: 600px;
+    width: 600px;
+    border: 5px;
+    border-color: #235DDB;
+    border-style:solid;
+}
+
+/* main */
+
+#zen-explanation{
+    display: flex;
+    background-image: url(folder.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    content-visibility: hidden;
+}
+
+#zen-explanation:hover {
+    content-visibility:visible;
+    display: contents;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    background-image: none;
+    display: block;
+    position: absolute;
+    Left: calc(50% - 600px/2);
+    top:100px;
+    height: 600px;
+    width: 600px;
+    border: 5px;
+    border-color: #235DDB;
+    border-style:solid;
+}
+
+#zen-participation{
+    display: flex;
+    background-image: url(file.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    content-visibility: hidden;
+}
+
+#zen-participation:hover {
+    content-visibility:visible;
+    display: contents;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    background-image: none;
+    display: block;
+    position: absolute;
+    Left: calc(50% - 600px/2);
+    top:100px;
+    height: 600px;
+    width: 600px;
+    border: 5px;
+    border-color: #235DDB;
+    border-style:solid;
+}
+
+#zen-benefits{
+    display: flex;
+    background-image: url(camera.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    content-visibility: hidden;
+}
+
+#zen-benefits:hover {
+    content-visibility:visible;
+    display: contents;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    background-image: none;
+    display: block;
+    position: absolute;
+    Left: calc(50% - 600px/2);
+    top:100px;
+    height: 600px;
+    width: 600px;
+    border: 5px;
+    border-color: #235DDB;
+    border-style:solid;
+}
+
+#zen-requirements{
+    display: flex;
+    background-image: url(internet.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    content-visibility: hidden;
+}
+
+#zen-requirements:hover {
+    content-visibility:visible;
+    display: contents;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    background-image: none;
+    display: block;
+    position: absolute;
+    Left: calc(50% - 600px/2);
+    top:100px;
+    height: 600px;
+    width: 600px;
+    border: 5px;
+    border-color: #235DDB;
+    border-style:solid;
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background-color: #235DDB;
+    width: 100%;
+    height: 2em;
+    position: absolute;
+    bottom: 0;
+}
+
+.zen-validate-html {
+    content-visibility:hidden;
+    text-decoration: none;
+    display: flex;
+    background-image: url(start.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.zen-validate-css {
+    text-decoration: none;
+    display: flex;
+    background-image: url(start.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+}
+
+.zen-license {
+    text-decoration: none;
+    display: flex;
+    background-image: url(start.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+}
+
+.zen-accessibility {
+    text-decoration: none;
+    display: flex;
+    background-image: url(start.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+}
+
+.zen-github {
+    text-decoration: none;
+    display: flex;
+    background-image: url(start.png);
+    background-position: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
 }
