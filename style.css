@@ -15,6 +15,7 @@ body{
 /* Section */
 
 section{
+    cursor: url(Cursor_12.cur), auto;
     display: flex;
     background-image: url(computer.png);
     background-position: 0;
@@ -45,6 +46,7 @@ section:hover {
 /* aside */
 
 aside{
+    cursor: url(Cursor_12.cur), auto;
     display: flex;
     background-image: url(users.png);
     background-position: 0;
@@ -55,7 +57,7 @@ aside{
 }
 
 aside:hover {
-    content-visibility:visible;
+    content-visibility: visible;
     display: contents;
     align-items: center;
     text-align: center;
@@ -75,6 +77,7 @@ aside:hover {
 /* main */
 
 #zen-explanation{
+    cursor: url(Cursor_12.cur), auto;
     display: flex;
     background-image: url(folder.png);
     background-position: 0;
@@ -85,7 +88,7 @@ aside:hover {
 }
 
 #zen-explanation:hover {
-    content-visibility:visible;
+    content-visibility: visible;
     display: contents;
     align-items: center;
     text-align: center;
@@ -99,10 +102,11 @@ aside:hover {
     width: 600px;
     border: 5px;
     border-color: #235DDB;
-    border-style:solid;
+    border-style: solid;
 }
 
 #zen-participation{
+    cursor: url(Cursor_12.cur), auto;
     display: flex;
     background-image: url(file.png);
     background-position: 0;
@@ -127,10 +131,11 @@ aside:hover {
     width: 600px;
     border: 5px;
     border-color: #235DDB;
-    border-style:solid;
+    border-style: solid;
 }
 
 #zen-benefits{
+    cursor: url(Cursor_12.cur), auto;
     display: flex;
     background-image: url(camera.png);
     background-position: 0;
@@ -150,15 +155,16 @@ aside:hover {
     display: block;
     position: absolute;
     Left: calc(50% - 600px/2);
-    top:100px;
+    top: 100px;
     height: 600px;
     width: 600px;
     border: 5px;
     border-color: #235DDB;
-    border-style:solid;
+    border-style: solid;
 }
 
 #zen-requirements{
+    cursor: url(Cursor_12.cur), auto;
     display: flex;
     background-image: url(internet.png);
     background-position: 0;
@@ -169,7 +175,7 @@ aside:hover {
 }
 
 #zen-requirements:hover {
-    content-visibility:visible;
+    content-visibility: visible;
     display: contents;
     align-items: center;
     text-align: center;
@@ -183,7 +189,7 @@ aside:hover {
     width: 600px;
     border: 5px;
     border-color: #235DDB;
-    border-style:solid;
+    border-style: solid;
 }
 
 
@@ -202,53 +208,77 @@ footer{
 }
 
 .zen-validate-html {
-    content-visibility:hidden;
+    cursor: url(Cursor_3.cur), auto;
+    content-visibility: hidden;
     text-decoration: none;
-    display: flex;
+    display: block;
+    position:fixed;
     background-image: url(start.png);
     background-repeat: no-repeat;
     background-position: 0;
-    background-size: 50px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
 }
 
 .zen-validate-css {
+    cursor: url(Cursor_13.cur), auto;
+    left: 120px;
+    content-visibility: hidden;
     text-decoration: none;
-    display: flex;
-    background-image: url(start.png);
+    display: block;
+    position: relative;
+    background-image: url(key.png);
     background-position: 0;
-    width: 50px;
-    height: 50px;
-    background-size: 50px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
 }
 
 .zen-license {
+    cursor: url(Cursor_13.cur), auto;
+    left: 140px;
+    content-visibility: hidden;
     text-decoration: none;
-    display: flex;
-    background-image: url(start.png);
+    display: block;
+    position: relative;
+    background-image: url(video.png);
     background-position: 0;
-    width: 50px;
-    height: 50px;
-    background-size: 50px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
 }
 
 .zen-accessibility {
+    cursor: url(Cursor_13.cur), auto;
+    left: 160px;
+    content-visibility: hidden;
     text-decoration: none;
-    display: flex;
-    background-image: url(start.png);
+    display: block;
+    position: relative;
+    background-image: url(controller.png);
     background-position: 0;
-    width: 50px;
-    height: 50px;
-    background-size: 50px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
 }
 
 .zen-github {
+    cursor: url(Cursor_13.cur), auto;
+    left: 180px;
+    content-visibility: hidden;
     text-decoration: none;
-    display: flex;
-    background-image: url(start.png);
+    display: block;
+    position: relative;
+    background-image: url(phone.png);
     background-position: 0;
-    width: 50px;
-    height: 50px;
-    background-size: 50px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
+
+html{
+
+cursor: url(CursorsXP.cur), auto;
+
 }
